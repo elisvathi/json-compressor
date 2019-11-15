@@ -64,3 +64,5 @@ function decompress(data, keys) {
     });
     return data;
 }
+
+module.exports = {compress, decompress};
